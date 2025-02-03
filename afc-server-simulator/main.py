@@ -4,7 +4,8 @@ import os
 from fastapi import FastAPI, HTTPException, Request
 from pydantic import BaseModel, Field, model_validator
 
-TEST_VECTORS_DIR = "test_vectors"
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+TEST_VECTORS_DIR = os.path.join(BASE_DIR, "test_vectors")
 
 app = FastAPI()
 
