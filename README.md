@@ -144,3 +144,17 @@ afc-dut-test/
 
     <img width="1651" alt="Screenshot 2025-02-03 at 11 05 43 AM" src="https://github.com/user-attachments/assets/18bd0809-7751-44a1-a56a-edf1b6ee473c" />
 
+## Reference
+
+- AFC Resources
+    - https://github.com/Wi-FiTestSuite/AFC-DUT
+    - https://www.wi-fi.org/discover-wi-fi/6-ghz-afc-resources
+
+- Python Stack
+    - https://docs.pytest.org
+    - https://allurereport.org/docs/pytest
+    - https://github.com/Delgan/loguru
+    - https://www.paramiko.org
+    - https://fastapi.tiangolo.com
+    - https://www.uvicorn.org
+    - https://requests.readthedocs.io
