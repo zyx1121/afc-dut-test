@@ -33,10 +33,11 @@ def test_1_1(dut, afc):
         assert result, "Send available spectrum inquiry request failed"
 
         last_request = afc.get_last_request()
-        assert last_request, "AFC server did not receive the request"
         logger.debug(last_request)
+        inquiry_requests = last_request.get("availableSpectrumInquiryRequests", [])
+        assert inquiry_requests, "AFC server did not receive the request"
 
-        for inquiry_request in last_request.get("availableSpectrumInquiryRequests", []):
+        for inquiry_request in inquiry_requests:
             assert (
                 "inquiredFrequencyRange" in inquiry_request
             ), "Request body is missing frequency range information"
