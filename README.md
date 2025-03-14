@@ -33,6 +33,8 @@ AFC DUT 測試，使用 pytest 與 allure 為測試框架。
 
 ## Structure
 
+![topo](https://github.com/user-attachments/assets/6799125e-ddf5-4496-b259-6d95df96baa8)
+
 ### AFC Server Simulator
 
 ```
@@ -129,7 +131,7 @@ afc-dut-test/
     # 執行 rsa 測試的 test_01_frequency.py 和 test_01_channel.py
     pytest -s -v tests/rsa/test_01_frequency.py tests/rsa/test_01_channel.py
     ```
-    
+
     <img width="1186" alt="Screenshot 2025-02-03 at 11 00 48 AM" src="https://github.com/user-attachments/assets/5da72b43-e761-4110-9b0c-1bdcecc1b96c" />
 
 ## Report
@@ -147,14 +149,15 @@ afc-dut-test/
 ## Reference
 
 - AFC Resources
-    - https://github.com/Wi-FiTestSuite/AFC-DUT
-    - https://www.wi-fi.org/discover-wi-fi/6-ghz-afc-resources
+
+  - https://github.com/Wi-FiTestSuite/AFC-DUT
+  - https://www.wi-fi.org/discover-wi-fi/6-ghz-afc-resources
 
 - Python Stack
-    - https://docs.pytest.org
-    - https://allurereport.org/docs/pytest
-    - https://github.com/Delgan/loguru
-    - https://www.paramiko.org
-    - https://fastapi.tiangolo.com
-    - https://www.uvicorn.org
-    - https://requests.readthedocs.io
+  - https://docs.pytest.org
+  - https://allurereport.org/docs/pytest
+  - https://github.com/Delgan/loguru
+  - https://www.paramiko.org
+  - https://fastapi.tiangolo.com
+  - https://www.uvicorn.org
+  - https://requests.readthedocs.io
