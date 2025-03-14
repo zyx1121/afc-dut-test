@@ -1,0 +1,19 @@
+{
+    "testCaseID": {
+        "unitUnderTest": "AFCD",
+        "purpose": "USA",
+        "testVector": 3
+    },
+    "description": "Unsuccessful Spectrum availability based on Inquired Channels and Frequency  range",
+    "responses": {
+        "availableSpectrumInquiryResponses": [
+            {
+                "response": {
+                    "responseCode": 0,
+                    "shortDescription": "SUCCESS"
+                },
+                "availableChannelInfo": []
+            }
+        ]
+    }
+}
