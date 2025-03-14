@@ -25,7 +25,7 @@ def test_1_0(dut, rf):
 @allure.title("Test 1.1 - Send Available Spectrum Inquiry Request")
 def test_1_1(dut, afc):
     with allure.step("Set AFC response"):
-        result = afc.set_test_vector("rsa_1")
+        result = afc.set_test_vector("AFCD_RSA_1")
         assert result, "Failed to set AFC response"
 
     with allure.step("Send frequency inquiry"):
